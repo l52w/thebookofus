@@ -30,3 +30,11 @@ header h1 {
 .c2 ul { display: flex; align-items: center; justify-content: space-between; }
 .c2 ul p { text-align: center; }
 
+#s2 { width: 100%; height: 600px; background: #999; }
+#s2 .title h3 { margin-bottom: 20px;  padding: 100px 0 0 100px; }
+#s2 .title hr { margin-bottom: 100px; width: 1200px; margin-left: 100px; }
+#s2 .cont { display: flex; justify-content: space-between; }
+#s2 .left { padding-left: 100px; }
+#s2 .left a { color: #000; font-size: 30px; line-height: 50px; }
+#s2 .right { padding-right: 100px; }
+#s2 .right img { border-radius: 200px 200px 0 0; }
