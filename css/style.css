@@ -18,15 +18,16 @@ header h1 {
 /* #slide { width: 1400px; position: relative;  margin-top: -300px; }
 .slideList { display: flex; position: absolute; top: 0; left: 0; width: 1400px; } */
 
-#s1 { width: 100%; height: 1100px; background: #a4acac; }
+#s1 { width: 100%; height: 1100px; background: #d8dfdf; }
 .c1 { padding: 100px; }
 .c1 .title p { margin-bottom: 20px;  }
 .c1 .title hr { margin-bottom: 100px; }
 .c1 > p {  text-align: center; }
 .c2 { padding: 100px; }
-.c2 .title p { margin-bottom: 20px;  }
+.c2 .title p { margin-top: -100px; margin-bottom: 20px;}
 .c2 .title hr { margin-bottom: 100px; }
 .c2 img { width: 200px; }
+/* .c2 img:hover { opacity: 0.5;} */
 .c2 ul { display: flex; align-items: center; justify-content: space-between; }
 .c2 ul p { text-align: center; }
 
@@ -39,10 +40,16 @@ header h1 {
 #s2 .right { padding-right: 100px; }
 #s2 .right img { border-radius: 200px 200px 0 0; } */
 
-#s2 { width: 100%; height: 2000px; background: #999; display: flex; flex-direction: column; align-items: center;}
-#s2 img { width: 300px; }
-#s2 .title h3 { margin-bottom: 20px;  padding: 100px 0 0 100px; }
-#s2 .title hr { margin-bottom: 80px; width: 1200px; margin-left: 100px; }
-#s2 .a1 { width: 1200px; height: 400px; display: flex; align-items: center; justify-content: space-between;  background: rgb(156, 112, 112); }
-#s2 .a2 { width: 1200px; height: 400px; display: flex; align-items: center; justify-content: space-between; background: rgb(218, 195, 195); }
-#s2 .txt { width: 500px; }
+#s2 { width: 100%; height: 2300px; background: rgb(220, 235, 235); display: flex; flex-direction: column; align-items: center;}
+#s2 img { width: 400px; }
+#s2 .title h3 { margin-bottom: 20px;  padding-top: 100px; }
+#s2 .title hr { margin-bottom: 80px; width: 1200px; }
+#s2 .a1 { width: 1200px; height: 400px; display: flex; align-items: center; justify-content: space-between; }
+#s2 .a2 { width: 1200px; height: 400px; display: flex; align-items: center; justify-content: space-between; }
+#s2 .txt { width: 600px; }
+
+#s3 { width: 100%; height: 600px; background: rgb(76, 174, 189);}
+#s4 { width: 100%; height: 600px; background: rgb(101, 189, 202);}
+#s5 { width: 100%; height: 600px; background: rgb(90, 196, 212);}
+#s6 { width: 100%; height: 600px; background: rgb(104, 213, 230);}
+#s7 { width: 100%; height: 600px; background: rgb(135, 221, 235);}
