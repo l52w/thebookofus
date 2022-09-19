@@ -12,17 +12,18 @@ header li a {color: #ffbb00; }
 header p { text-align: center; color: #455e57; padding-top: 20px; }
 header img { width: 400px; border-radius: 200px 200px 0 0; margin-top:20px;  }
 header h1 { 
-    font-family: 'Chonburi'; text-align: center;  font-size: 60px; 
-    margin-top: -500px;
+    font-family: 'Chonburi'; text-align: center;  font-size: 60px; margin-top: -500px;
 }
-#s1 { width: 100%; height: 1100px; background: #434747; }
+
+#s1 { width: 100%; height: 1350px; background: #272727; }
 .c1 { padding: 100px; }
 .c1 .title p { margin-bottom: 20px;  }
-.c1 .title hr { margin-bottom: 100px; }
+.c1 .title hr { border: 0; height: 5px; background: #d38b07; margin-bottom: 100px; }
 .c1 > p {  text-align: center; }
 .c2 { padding: 100px; }
 .c2 .title p { margin-top: -100px; margin-bottom: 20px;}
-.c2 .title hr { margin-bottom: 100px; }
-.c2 img { width: 200px; }
+.c2 .title hr { border: 0; height: 5px; background: #d38b07; margin-bottom: 100px; }
+.c2 img { width: 150px; margin-bottom: 20px; }
 .c2 ul { display: flex; align-items: center; justify-content: space-between; }
 .c2 ul p { text-align: center; }
+.c2 .u1 { margin-bottom: 100px; }
